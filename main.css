@@ -1,0 +1,26 @@
+label {
+	display: inline-block;
+	width: 8rem;
+}
+
+fieldset {
+	display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+	margin: 0.25rem 0;
+}
+
+input[type="email"]:valid,
+input[type="url"]:valid {
+	background: #6fa;
+}
+
+input[type="email"]:invalid,
+input[type="url"]:invalid {
+	background: pink;
+}

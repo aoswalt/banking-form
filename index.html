@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Banking Form</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<form action="index_submit" method="get" accept-charset="utf-8">
@@ -53,8 +53,10 @@
 			<legend>Loan Length</legend>
 			<input type="radio" id="loan-5-year" name="loan-length" value="5year">
 			<label for="loan-5-year">5 Year</label>
+			<br/>
 			<input type="radio" id="loan-15-year" name="loan-length" value="15year">
 			<label for="loan-15-year">15 Year</label>
+			<br/>
 			<input type="radio" id="loan-30-year" name="loan-length" value="30year">
 			<label for="loan-30-year">30 Year</label>
 		</fieldset>
@@ -63,10 +65,13 @@
 			<legend>Conditions</legend>
 			<input type="checkbox" id="down-payment" name="down-payment">
 			<label for="down-payment">Down Payment</label>
+			<br/>
 			<input type="checkbox" id="out-of-state" name="out-of-state">
 			<label for="out-of-state">Out-Of-State</label>
+			<br/>
 			<input type="checkbox" id="married" name="married">
 			<label for="married">Married</label>
+			<br/>
 			<input type="checkbox" id="co-signed" name="co-signed">
 			<label for="co-signed">Co-Signed</label>
 		</fieldset>
@@ -76,7 +81,7 @@
 		<br/>
 
 		<label for="e-mail">E-Mail:</label>
-		<input type="email" id="e-mail" name="e-mail">
+		<input type="email" id="e-mail" name="e-mail" required>
 		<br/>
 
 		<label for="telephone">Telephone:</label>
@@ -84,7 +89,7 @@
 		<br/>
 
 		<label for="linkedin">LinkedIn URL:</label>
-		<input type="url" id="linkedin" name="linkedin">
+		<input type="url" id="linkedin" name="linkedin" required>
 		<br/>
 
 		<input type="submit" value="Submit">
